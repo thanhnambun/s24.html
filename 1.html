@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("nhập 1 số nguyên dương");
+        let t=0;
+       
+        if(a < 0){
+
+
+            console.log("số nhập sai định dạng");
+        }else{
+            if(a % 2 !=0){
+                for(let i=1; i< a-1; i++){
+                    t+=i;
+                }
+                console.log(t);
+            }else{
+                for(let i=1; i< a; i++){
+                    t+=i;
+                }
+                console.log(t);
+            }
+        }
+    </script>
+</body>
+</html>

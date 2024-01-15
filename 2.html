@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("nhập 1 số ");
+        let b = +prompt("nhập 1 số ");
+        let sum1 =0, sum2 =0;
+        if(a<0 && b<0){
+            console.log("nhập sai định dạng");
+        }else{
+            if(a<b){
+                for(let i=a; i<b ;i++){ console.log(1);
+                    if(i % 2 == 0){
+                        sum1 +=i
+                    }else{
+                        console.log("o có số chẵn trong đoạn");
+                    }
+                    if(i % 2 !==0){
+                        sum2 +=i
+                    }else("o có số lẻ trong đoạn ")
+                }
+                console.log("tong số lẻ " , sum2);
+                console.log("tổng số chẵn là ", sum1);
+            }
+        }
+    </script>
+</body>
+</html>

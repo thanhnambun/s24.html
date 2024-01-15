@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let n = parseInt(prompt("Nhập một số nguyên dương:"));
+        let f0=0;
+        let f1=1;
+        let f2;
+        let sum=0;
+        do{
+            f2=f0+f1;
+            f0=f1;
+            f1=f2;
+            sum+=f0
+        }
+        while (sum=n){
+            document.write(f0 + " ")
+        }
+    </script>
+</body>
+</html>
